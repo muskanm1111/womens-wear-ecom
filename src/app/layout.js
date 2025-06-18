@@ -1,5 +1,12 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import { ShopProvider } from "../../context/ShopContext";
+import SearchOverlay from "@/components/SearchOverlay";
+import CartDrawer from "@/components/CartDrawer";
+import { Suspense } from "react";
+import Header from "@/components/navbar";
+import Footer from "@/components/footer";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -20,10 +27,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={geistMono.className}>
+        <ShopProvider>
+          <Suspense>
+            <SearchOverlay />
+            <CartDrawer />
+          </Suspense>
+          <Header/>
+          {children}
+          <Footer />
+        </ShopProvider>
       </body>
     </html>
   );
