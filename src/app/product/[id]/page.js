@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Heart, Share2, Truck, Shield, RotateCcw, Star } from "lucide-react";
-
+import { useShop } from "@/context/ShopContext";
 import { Button } from "@/components/ui/button";
 import {
   Select,
@@ -13,7 +13,6 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { useShop } from "@/context/ShopContext";
 
 // Mock product data
 const product = {

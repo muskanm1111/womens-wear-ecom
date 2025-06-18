@@ -36,7 +36,7 @@ export default function CheckoutSuccessPage() {
           </div>
 
           <p className="text-gray-600 mb-8">
-            We've sent a confirmation email with your order details and tracking
+            We&apos;ve sent a confirmation email with your order details and tracking
             information.
           </p>
 

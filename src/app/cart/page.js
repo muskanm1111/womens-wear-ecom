@@ -209,7 +209,7 @@ export default function AccountPage() {
             <Card>
               <CardHeader>
                 <CardTitle>My Wishlist</CardTitle>
-                <CardDescription>Items you've saved for later</CardDescription>
+                <CardDescription>Items you&apos;ve saved for later</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">

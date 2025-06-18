@@ -1,10 +1,8 @@
 "use client";
 
-
-
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-// import { useShop } from "@/context/ShopContext";
+import { useShop } from "@/context/ShopContext";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -39,11 +37,11 @@ export default function CheckoutPage() {
       router.push("/checkout/success");
     }, 2000);
   };
-
-  if (cart.length === 0) {
-    router.push("/");
-    return null;
-  }
+  useEffect(() => {
+    if (cart.length === 0) {
+      router.push("/");
+    }
+  }, [cart.length, router]);
 
   return (
     <div className="min-h-screen bg-gray-50">
