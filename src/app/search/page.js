@@ -6,7 +6,7 @@ import { useState, useEffect } from "react"
 import { useSearchParams } from "next/navigation"
 
 
-import ProductGrid from "@/components/productgrid"
+import ProductGrid from "@/components/productGrid"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Search } from "lucide-react"

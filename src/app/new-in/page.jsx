@@ -1,6 +1,6 @@
 
-import ProductGrid from "@/components/ProductGrid";
-import ProductFilters from "@/components/ProductFilters";
+import ProductGrid from "@/components/productGrid";
+import ProductFilters from "@/components/productFilters";
 
 export default function NewInPage() {
   return (

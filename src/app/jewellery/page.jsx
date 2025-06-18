@@ -1,6 +1,6 @@
 
-import ProductGrid from "@/components/productgrid";
-import ProductFilters from "@/components/productfilters";
+import ProductGrid from "@/components/productGrid";
+import ProductFilters from "@/components/productFilters";
 import { Button } from "@/components/ui/button";
 import { Filter } from "lucide-react";
 
