@@ -27,9 +27,6 @@ import {
 } from "lucide-react";
 import { useShop } from "@/context/ShopContext";
 
-
-
-
 export default function AccountPage() {
   const router = useRouter();
   const { wishlist } = useShop();
