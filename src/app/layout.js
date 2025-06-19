@@ -1,4 +1,5 @@
 import localFont from "next/font/local";
+import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 
 import SearchOverlay from "@/components/SearchOverlay";
@@ -19,6 +20,12 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  variable: "--font-playfair",
+  display: "swap",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -28,7 +35,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={geistMono.className}>
+      <body className={playfair.className}>
         <ShopProvider>
           <Suspense>
             <SearchOverlay />
