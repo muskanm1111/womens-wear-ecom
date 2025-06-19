@@ -1,7 +1,8 @@
 
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import ProductGrid from "@/components/productgrid";
+import ProductGrid from "@/components/ProductGrid";
+
 
 
 const celebrities = [

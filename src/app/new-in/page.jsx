@@ -3,7 +3,7 @@
 
 
 import ProductFilters from "@/components/ProductFilters";
-import ProductGrid from "@/components/productgrid";
+import ProductGrid from "@/components/ProductGrid";
 
 
 export default function NewInPage() {

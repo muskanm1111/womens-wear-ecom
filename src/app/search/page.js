@@ -10,7 +10,7 @@ import { useSearchParams } from "next/navigation"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Search } from "lucide-react"
-import ProductGrid from "@/components/productgrid"
+import ProductGrid from "@/components/ProductGrid"
 
 export default function SearchPage() {
   const searchParams = useSearchParams()
