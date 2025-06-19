@@ -89,16 +89,16 @@ export default function Header() {
             </div>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex space-x-1  text-nowrap xl:space-x-8 flex-1 justify-center">
+            <nav className="hidden lg:flex space-x-1  text-nowrap group:hover:underline flex-1 justify-center">
               <Link
                 href="/new-in"
-                className="px-6 py-2 text-gray-700 hover:text-rose-600 font-medium text-sm xl:text-base transition-colors"
+                className="px-6 py-2 text-gray-700 hover:text-rose-600 hover:underline underline-offset-4 transition-all duration-300 font-medium text-sm xl:text-base"
               >
                 New In
               </Link>
 
               <DropdownMenu>
-                <DropdownMenuTrigger className="flex items-center px-3 py-2 text-gray-700 hover:text-rose-600 font-medium text-sm xl:text-base transition-colors">
+                <DropdownMenuTrigger className="flex items-center px-3 py-2 hover:underline underline-offset-4 text-gray-700 hover:text-rose-600 font-medium text-sm xl:text-base transition-colors">
                   Womenswear <ChevronDown className="ml-1 h-4 w-4" />
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="w-56">
@@ -118,7 +118,7 @@ export default function Header() {
               </DropdownMenu>
 
               <DropdownMenu>
-                <DropdownMenuTrigger className="flex items-center px-3 py-2 text-gray-700 hover:text-rose-600 font-medium text-sm xl:text-base transition-colors">
+                <DropdownMenuTrigger className="flex items-center px-3 py-2 text-gray-700 hover:underline underline-offset-4 hover:text-rose-600 font-medium text-sm xl:text-base transition-colors">
                   Ready to Ship <ChevronDown className="ml-1 h-4 w-4" />
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="w-56">
@@ -138,7 +138,7 @@ export default function Header() {
               </DropdownMenu>
 
               <DropdownMenu>
-                <DropdownMenuTrigger className="flex items-center px-3 py-2 text-gray-700 hover:text-rose-600 font-medium text-sm xl:text-base transition-colors">
+                <DropdownMenuTrigger className="flex items-center px-3 py-2 text-gray-700 hover:underline underline-offset-4 hover:text-rose-600 font-medium text-sm xl:text-base transition-colors">
                   Bridal <ChevronDown className="ml-1 h-4 w-4" />
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="w-56">
@@ -159,19 +159,19 @@ export default function Header() {
 
               <Link
                 href="/jewellery"
-                className="px-3 py-2 text-gray-700 hover:text-rose-600 font-medium text-sm xl:text-base transition-colors"
+                className="px-3 py-2 hover:underline underline-offset-4 text-gray-700 hover:text-rose-600 font-medium text-sm xl:text-base transition-colors"
               >
                 Jewellery
               </Link>
               <Link
                 href="/celebrity-spotlight"
-                className="px-3 py-2 text-gray-700 hover:text-rose-600 font-medium text-sm xl:text-base transition-colors whitespace-nowrap"
+                className="px-3 py-2 hover:underline underline-offset-4 text-gray-700 hover:text-rose-600 font-medium text-sm xl:text-base transition-colors whitespace-nowrap"
               >
                 Celebrity Spotlight
               </Link>
               <Link
                 href="/vip-sale"
-                className="px-3 py-2 text-red-600 hover:text-red-700 font-medium text-sm xl:text-base transition-colors"
+                className="px-3 py-2 hover:underline underline-offset-4 text-red-600 hover:text-red-700 font-medium text-sm xl:text-base transition-colors"
               >
                 VIP Sale
               </Link>
