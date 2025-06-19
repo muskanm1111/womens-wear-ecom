@@ -18,7 +18,8 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { useShop } from "../../context/ShopContext";
+import { useShop } from "@/context/ShopContext";
+
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

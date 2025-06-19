@@ -6,7 +6,8 @@ import { Button } from "@/components/ui/button";
 
 import Image from "next/image";
 import Link from "next/link";
-import { useShop } from "../../context/ShopContext";
+import { useShop } from "@/context/ShopContext";
+
 
 export default function CartDrawer() {
   const {

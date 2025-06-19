@@ -1,10 +1,11 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { useShop } from "@/context/ShopContext";
 import { ShoppingBag } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
-import { useShop } from "../../context/ShopContext";
+
 
 export default function QuickViewModal({ product, isOpen, onClose }) {
   const { addToCart } = useShop();

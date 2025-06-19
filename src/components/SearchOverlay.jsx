@@ -6,7 +6,8 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Search, X } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import { useShop } from "../../context/ShopContext"
+import { useShop } from "@/context/ShopContext"
+
 
 
 export default function SearchOverlay() {

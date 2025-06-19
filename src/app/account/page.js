@@ -25,7 +25,8 @@ import {
   Trash,
   Plus,
 } from "lucide-react";
-import { useShop } from "../../../context/ShopContext";
+import { useShop } from "@/context/ShopContext";
+
 
 
 

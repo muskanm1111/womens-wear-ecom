@@ -3,9 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { Heart, Eye, ShoppingBag } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useShop } from "../../context/ShopContext";
+
 import QuickViewModal from "./QuickViewModal";
 import { useState } from "react";
+import { useShop } from "@/context/ShopContext";
 
 const featuredProducts = [
 	{

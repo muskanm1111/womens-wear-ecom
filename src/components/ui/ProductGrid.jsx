@@ -7,7 +7,8 @@ import { Heart, Eye, ShoppingBag } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select.jsx"
 import { usePathname } from "next/navigation"
-import { useShop } from "../../context/ShopContext"
+import { useShop } from "@/context/ShopContext"
+
 
 // Mock product data generator
 const generateProducts = (count, category) => {
