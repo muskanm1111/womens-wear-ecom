@@ -2,7 +2,7 @@
 
 
 
-import ProductFilters from "@/components/productFilters";
+import ProductFilters from "@/components/ProductFilters";
 import ProductGrid from "@/components/productgrid";
 
 
