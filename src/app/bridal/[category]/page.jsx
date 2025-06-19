@@ -1,7 +1,7 @@
 
-import ProductFilters from "@/components/ProductFilters"
-import ProductGrid from "@/components/ProductGrid"
 import { Button } from "@/components/ui/button"
+import ProductFilters from "@/components/ui/ProductFilters"
+import ProductGrid from "@/components/ui/ProductGrid"
 import { Filter } from "lucide-react"
 import { notFound } from "next/navigation"
 

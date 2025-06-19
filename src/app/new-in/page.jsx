@@ -1,9 +1,9 @@
+import ProductFilters from "@/components/ui/ProductFilters";
+import ProductGrid from "@/components/ui/ProductGrid";
 
 
 
 
-import ProductFilters from "@/components/ProductFilters";
-import ProductGrid from "@/components/ProductGrid";
 
 
 export default function NewInPage() {

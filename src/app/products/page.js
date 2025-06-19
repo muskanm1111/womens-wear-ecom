@@ -5,8 +5,9 @@ import { useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import { Filter } from "lucide-react";
-import ProductFilters from "@/components/ProductFilters";
-import ProductGrid from "@/components/ProductGrid";
+import ProductFilters from "@/components/ui/ProductFilters";
+import ProductGrid from "@/components/ui/ProductGrid";
+
 
 export default function ProductsPage() {
   const [showFilters, setShowFilters] = useState(false);
